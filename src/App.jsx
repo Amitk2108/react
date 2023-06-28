@@ -5,6 +5,7 @@ import Api from './Components/Practice3/Api'
 import Counter1 from './Components/Practice4/Counter1'
 import CounterRedux from './Components/Practice4/Counter2'
 import Main from './Components/Practice5/Main'
+import Api2 from './Components/Practice6/Api2'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
     <MapCard/>
     <InputBox/>
     <Api/>
+    <Api2/>
     
    </div>
    

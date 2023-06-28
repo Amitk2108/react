@@ -6,7 +6,7 @@ const Api = () => {
 
   //   let API = "https://jsonplaceholder.typicode.com/posts?_limit=10";
   //   let API = "https://reqres.in/api/users";
-  let API = "https://dummyjson.com/products";
+  let API = "https://dummyjson.com/products/category/smartphones";
 
   const fectchApiData = async () => {
     try {
@@ -26,7 +26,7 @@ const Api = () => {
       <h1>Posts</h1>
 
       <div>
-        <button onClick={fectchApiData}>Get Posts</button>
+        <button onClick={fectchApiData}>Get Posts On Button Click</button>
         <div>
           {user.map((post) => (
             <ProductData key={post.id} {...post} />
