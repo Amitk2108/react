@@ -1,5 +1,6 @@
 import Movies from "./movie.json";
 import Mcard from "./Mcard";
+import "./MapCard.css"
 
 const MapCard = () => {
   return (

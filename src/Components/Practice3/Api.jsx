@@ -1,5 +1,6 @@
 import { useState } from "react";
 import ProductData from "./ProductData";
+import "./Api.css"
 
 const Api = () => {
   const [user, setUser] = useState([]);
@@ -25,9 +26,9 @@ const Api = () => {
     <div>
       <h1>Posts</h1>
 
-      <div>
+      <div className="ignore" >
         <button onClick={fectchApiData}>Get Posts On Button Click</button>
-        <div>
+        <div className="main1" >
           {user.map((post) => (
             <ProductData key={post.id} {...post} />
           ))}

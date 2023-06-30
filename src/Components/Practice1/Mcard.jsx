@@ -6,8 +6,8 @@ const Mcard = ({ poster, title, year }) => {
   return (
     <div>
       <img src={poster} alt="" />
-      <h1>{title}</h1>
-      <h1>{year}</h1>
+      <p>{title}</p>
+      <p>{year}</p>
     </div>
   );
 };

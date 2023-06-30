@@ -12,13 +12,13 @@ const Apidata = ({
 }) => {
   return (
     <div>
-      <h1> {title} </h1>
+      <p> {title} </p>
 
       <img src={thumbnail} alt="" />
 
-      <h2>Price {price} </h2>
+      <p>Price {price} </p>
 
-      <h2>Discount {discountPercentage} </h2>
+      <p>Discount {discountPercentage} </p>
 
       <p>
         Description {"="} {description}
@@ -26,11 +26,11 @@ const Apidata = ({
 
       <p>Rating {rating} </p>
 
-      <h2> Brand {brand} </h2>
+      <p> Brand {brand} </p>
 
-      <h2>Category {category} </h2>
+      <p>Category {category} </p>
 
-      <h3>Stock {stock}</h3>
+      <p>Stock {stock}</p>
     </div>
   );
 };
